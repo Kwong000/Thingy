@@ -8,9 +8,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField layoutX="287.0" layoutY="343.0" prefHeight="26.0" prefWidth="167.0" />
+      <TextField layoutX="287.0" layoutY="343.0" prefHeight="26.0" prefWidth="235.0" />
       <TextArea editable="false" layoutX="287.0" layoutY="34.0" prefHeight="302.0" prefWidth="282.0" />
-      <Button layoutX="523.0" layoutY="343.0" mnemonicParsing="false" text="Send" />
+      <Button layoutX="531.0" layoutY="343.0" mnemonicParsing="false" text="Ask" />
       <Label layoutX="406.0" layoutY="14.0" text="Receive" />
       <TextField layoutX="31.0" layoutY="54.0" />
       <Label layoutX="88.0" layoutY="26.0" text="Server IP" />
@@ -21,7 +21,11 @@
       <TextField layoutX="31.0" layoutY="166.0" />
       <Label layoutX="87.0" layoutY="143.0" text="Username" />
       <Button layoutX="202.0" layoutY="166.0" mnemonicParsing="false" text="Confirm" />
-      <Button layoutX="112.0" layoutY="215.0" mnemonicParsing="false" text="Connect" />
-      <Button layoutX="458.0" layoutY="343.0" mnemonicParsing="false" text="Add File" />
+      <Button layoutX="112.0" layoutY="200.0" mnemonicParsing="false" text="Connect" />
+      <TextField layoutX="31.0" layoutY="343.0" />
+      <Button layoutX="202.0" layoutY="343.0" mnemonicParsing="false" text="Confirm" />
+      <Label layoutX="80.0" layoutY="319.0" text="Final Answer" />
+      <TextField editable="false" layoutX="32.0" layoutY="283.0" />
+      <Label layoutX="74.0" layoutY="264.0" text="Questions left" />
    </children>
 </AnchorPane>
