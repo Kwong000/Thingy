@@ -5,6 +5,5 @@ module com.example.thingy {
 
     opens com.example.thingy to javafx.fxml;
     exports com.example.thingy;
-    exports;
-    opens to
+
 }

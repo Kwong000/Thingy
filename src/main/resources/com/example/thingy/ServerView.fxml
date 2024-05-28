@@ -4,12 +4,13 @@
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thingy.ServerView">
    <children>
-      <TextArea layoutX="26.0" layoutY="38.0" prefHeight="340.0" prefWidth="240.0" />
-      <TextArea layoutX="328.0" layoutY="38.0" prefHeight="340.0" prefWidth="240.0" />
-      <Label layoutX="131.0" layoutY="14.0" text="Send" />
-      <Label layoutX="426.0" layoutY="14.0" text="Recieve" />
+      <TextArea editable="false" layoutX="36.0" layoutY="30.0" prefHeight="340.0" prefWidth="150.0" />
+      <TextArea editable="false" layoutX="225.0" layoutY="30.0" prefHeight="340.0" prefWidth="150.0" />
+      <TextArea layoutX="416.0" layoutY="30.0" prefHeight="340.0" prefWidth="150.0" text="Unused WIP&#10;" />
+      <Label layoutX="97.0" layoutY="14.0" text="Send" />
+      <Label layoutX="278.0" layoutY="14.0" text="Recieve" />
+      <Label layoutX="469.0" layoutY="14.0" text="Console" />
    </children>
 </AnchorPane>

@@ -6,13 +6,22 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField layoutX="31.0" layoutY="34.0" />
-      <TextArea layoutX="287.0" layoutY="34.0" prefHeight="331.0" prefWidth="282.0" />
-      <Button layoutX="210.0" layoutY="34.0" mnemonicParsing="false" text="Send" />
-      <Label layoutX="96.0" layoutY="14.0" text="Send" />
+      <TextField layoutX="287.0" layoutY="343.0" prefHeight="26.0" prefWidth="167.0" />
+      <TextArea editable="false" layoutX="287.0" layoutY="34.0" prefHeight="302.0" prefWidth="282.0" />
+      <Button layoutX="523.0" layoutY="343.0" mnemonicParsing="false" text="Send" />
       <Label layoutX="406.0" layoutY="14.0" text="Receive" />
+      <TextField layoutX="31.0" layoutY="54.0" />
+      <Label layoutX="88.0" layoutY="26.0" text="Server IP" />
+      <Button layoutX="202.0" layoutY="54.0" mnemonicParsing="false" text="Confirm" />
+      <TextField layoutX="31.0" layoutY="110.0" />
+      <Label layoutX="99.0" layoutY="87.0" text="Port" />
+      <Button layoutX="202.0" layoutY="110.0" mnemonicParsing="false" text="Confirm" />
+      <TextField layoutX="31.0" layoutY="166.0" />
+      <Label layoutX="87.0" layoutY="143.0" text="Username" />
+      <Button layoutX="202.0" layoutY="166.0" mnemonicParsing="false" text="Confirm" />
+      <Button layoutX="112.0" layoutY="215.0" mnemonicParsing="false" text="Connect" />
+      <Button layoutX="458.0" layoutY="343.0" mnemonicParsing="false" text="Add File" />
    </children>
 </AnchorPane>
