@@ -64,6 +64,6 @@ public class ClientConnection {
 
     public String toString() {
         return "Client Connection IP " + actualSocket.getInetAddress().getHostAddress() +
-                " named: " + name;
+                "named: " + name;
     }
 }

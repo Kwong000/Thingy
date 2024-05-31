@@ -1,6 +1,7 @@
 package com.example.thingy;
 
 public class Server {
+
     static ServerSocketConnector connector;
     static Thread connectorThread;
 

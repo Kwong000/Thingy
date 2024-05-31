@@ -28,7 +28,7 @@ public class ClientController extends ClientServerController {
         DataReader myDataReader = new DataReader(serverConnection, queue);
         ProgramLogic myProgramLogic = new ProgramLogic(queue, this, false);
         Thread dataReadThread = new Thread(myDataReader);
-        Thread programLogicThread = new Thread(myProgramLogicDoer);
+        Thread programLogicThread = new Thread(myProgramLogic);
         dataReadThread.start();
         programLogicThread.start();
 

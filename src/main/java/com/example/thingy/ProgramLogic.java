@@ -52,6 +52,7 @@ public class ProgramLogic implements Runnable {
                     System.out.println("ProgramLogicDoer got: " + inMessage1);
                 }
                 if (serverMode) {
+
                     try {
                         if (inMessage1.getMessage().equalsIgnoreCase("ID") &&
                                 inMessage1.getTo().equalsIgnoreCase("SERVER")) {

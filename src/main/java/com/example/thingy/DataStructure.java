@@ -18,6 +18,7 @@ public class DataStructure {
             dataUsed = dataUsed + 1;
             data[nextPut] = obj;
             if (nextPut < 99)  {
+
                 nextPut = nextPut + 1;
             } else {
                 nextPut = 0;
